@@ -1,0 +1,36 @@
+﻿<Window x:Class="Lab_8._2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab_8._2"
+        xmlns:myElement="clr-namespace:Lab_8._2.MyElement"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid  Name="gridRoot"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="5,5,5,5">
+
+
+        <Grid.RowDefinitions >
+            <RowDefinition  ></RowDefinition>
+            <RowDefinition ></RowDefinition>
+            <RowDefinition ></RowDefinition>
+            <RowDefinition ></RowDefinition>
+            <RowDefinition ></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition ></ColumnDefinition>
+            <ColumnDefinition ></ColumnDefinition>
+            <ColumnDefinition ></ColumnDefinition>
+            <ColumnDefinition ></ColumnDefinition>
+            <ColumnDefinition ></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <ComboBox Grid.Row="0" Grid.Column="1" SelectionChanged="Type_Metod"   Grid.ColumnSpan="3" HorizontalAlignment="Stretch" >
+            <myElement:MyLabel Id="0">метод номер 1</myElement:MyLabel>
+            <myElement:MyLabel Id="1">метод номер 2</myElement:MyLabel>
+        </ComboBox>
+        <Button Grid.Row="3" Grid.Column="1" Click="Сalculation"  Grid.ColumnSpan="3" HorizontalAlignment="Stretch"  >123</Button>
+        <Label Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="3" Name="answer">Ответ:</Label>
+        <Image Grid.Row="0" Grid.Column="0"   Source="/Image1.png" Stretch="Fill"/>
+
+    </Grid>
+</Window>

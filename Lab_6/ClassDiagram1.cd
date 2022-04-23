@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Lab_6.equipment.CompTex" Collapsed="true">
+    <Position X="16" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAACAAAAAAAAAgAAAAAAAAAAAAAAACBAAA=</HashCode>
+      <FileName>equipment\CompTex.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab_6.equipment.Laptop" Collapsed="true">
+    <Position X="16" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAABAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>equipment\Laptop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab_6.equipment.Pk" Collapsed="true">
+    <Position X="18.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>equipment\PK.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab_6.equipment.Server" Collapsed="true">
+    <Position X="13.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>equipment\Server.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab_6.Program" Collapsed="true">
+    <Position X="20.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Lab_6.hardware.CP" Collapsed="true">
+    <Position X="20.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABABAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>hardware\CP.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Lab_6.hardware.RAM" Collapsed="true">
+    <Position X="22.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>hardware\RAM.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

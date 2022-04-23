@@ -1,0 +1,57 @@
+﻿<Window x:Class="Lab_10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab_10"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="500" ResizeMode="NoResize" WindowStyle="None">
+    <Grid>
+        <Button Click="ButtonBase_OnClick" Width=" 100"  Margin="0,0,300,450"> цвет 1 </Button>
+        <Button Click="ButtonBase_OnClick2" Width=" 100"  Margin="300,0,0,450"> цвет 2 </Button>
+
+        <Grid>
+            <Ellipse Fill="White" Width="200" Height="200"></Ellipse>
+            <Rectangle MouseEnter="enterMR" MouseLeave="leaveMR" HorizontalAlignment="Left" Height="37"
+                       Margin="250,150,0,0" Fill="Orange" VerticalAlignment="Top" Width="100" />
+
+            <Rectangle HorizontalAlignment="Left" Height="63" Margin="320,163,0,0" Fill="White" VerticalAlignment="Top"
+                       Width="73" RenderTransformOrigin="0.5,0.5">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform />
+                        <SkewTransform />
+                        <RotateTransform Angle="45" />
+                        <TranslateTransform />
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+
+            <Ellipse Fill="White" Width="200" Height="200" Stroke="DarkGray" StrokeThickness="1.5" />
+
+
+            <Path MouseEnter="enterME" MouseLeave="leaveME" Fill="Orange">
+                <Path.Data>
+                    <PathGeometry>
+                        <PathFigure IsClosed="True" StartPoint="180,320">
+                            <ArcSegment Point="250,349" Size="100,100" />
+                            <LineSegment Point="250,250"></LineSegment>
+                        </PathFigure>
+                    </PathGeometry>
+                </Path.Data>
+            </Path>
+
+            <Line Stroke="Aqua" X1="250" Y1="75" X2="250" Y2="425"></Line>
+            <Line Stroke="Aqua" X1="75" Y1="250" X2="425" Y2="250"></Line>
+
+            <Line Stroke="Indigo" X1="125" Y1="375" X2="375" Y2="125"></Line>
+
+            <Line Stroke="Indigo" X1="350" Y1="375" X2="350" Y2="115"></Line>
+            <Line Stroke="Indigo" X1="125" Y1="150" X2="385" Y2="150"></Line>
+
+
+            <Polygon Fill="Aqua" Points="425, 260, 425, 240, 445, 250"></Polygon>
+            <Polygon Fill="Aqua" Points="250, 60, 260, 75, 240, 75"></Polygon>
+        </Grid>
+    </Grid>
+</Window>
